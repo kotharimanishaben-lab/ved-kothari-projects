@@ -1,12 +1,16 @@
 #include <stdio.h>
 
 int main () {
-    int a[5];
-    for(int i=0; i<5; i++){
-        scanf("%d", &a[i]);
+    int a, i=1;
+    while(i<11) {
+        printf("%d\t", i);
+        i++;
     }
-    for (int i = 0; i<5; i++){
-        printf("%d\t", a[i]);
-    }
+    printf("\n");
+    do{
+        printf("%d\t", i);
+        i++;
+    }while(i<11);
+
     return 0;
 }
